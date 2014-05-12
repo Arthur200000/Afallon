@@ -1,0 +1,22 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Afallon/System.Windows.Markup/DateTimeValueSerializer.cs">
+    <Files>
+      <File FileName="Tests/SimpleTest/Program.cs" Line="1" Column="1" />
+      <File FileName="Afallon/Consts.cs" Line="10" Column="12" />
+      <File FileName="Afallon/System.Windows/DependencyObject.cs" Line="49" Column="10" />
+      <File FileName="Afallon/System.Windows.Markup/DesignerSerializationOptions.cs" Line="49" Column="2" />
+      <File FileName="AfallonCore/System.Windows/UIPropertyMetadata.cs" Line="28" Column="26" />
+      <File FileName="Afallon/System.Windows/Size.cs" Line="1" Column="1" />
+      <File FileName="Afallon/System.Windows/Callbacks.cs" Line="49" Column="33" />
+      <File FileName="Afallon.Xaml/System.Windows.Markup/XmlnsDefinitionAttribute.cs" Line="19" Column="38" />
+      <File FileName="Afallon/System.Windows.Input/Key.cs" Line="1" Column="1" />
+      <File FileName="Afallon.Xaml/System.Windows.Markup/XmlnsPrefixAttribute.cs" Line="10" Column="57" />
+      <File FileName="Afallon/System.Windows.Markup/DateTimeValueSerializer.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -11,6 +11,8 @@
     <AssemblyName>WindowsBase</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <ProductVersion>12.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -33,9 +35,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
-  </PropertyGroup>
-  <PropertyGroup>
-    <DelaySign>false</DelaySign>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>Afallon.snk</AssemblyOriginatorKeyFile>
@@ -104,6 +103,7 @@
     <Compile Include="System.Windows\SizeConverter.cs" />
     <Compile Include="System.Windows\Vector.cs" />
     <Compile Include="System.Windows\VectorConverter.cs" />
+    <Compile Include="System.Windows.Markup\DateTimeValueSerializer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Afallon.snk" />
@@ -111,7 +111,7 @@
   <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Afallon.Xaml\Afallon.Xaml.csproj">
-      <Project>{c85fc6f0-92c0-4920-8cbe-2e4e558d28d8}</Project>
+      <Project>{C85FC6F0-92C0-4920-8CBE-2E4E558D28D8}</Project>
       <Name>Afallon.Xaml</Name>
     </ProjectReference>
   </ItemGroup>
@@ -123,4 +123,14 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <Policies>
+          <TextStylePolicy FileWidth="120" TabsToSpaces="False" EolMarker="Unix" inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/x-csharp" />
+          <CSharpFormattingPolicy IndentSwitchBody="True" BeforeMethodDeclarationParentheses="False" BeforeMethodCallParentheses="False" BeforeConstructorDeclarationParentheses="False" BeforeDelegateDeclarationParentheses="False" NewParentheses="False" SpacesBeforeBrackets="False" inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp" />
+        </Policies>
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
 </Project>

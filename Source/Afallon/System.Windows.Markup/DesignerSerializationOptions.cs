@@ -26,10 +26,26 @@
 using System;
 
 namespace System.Windows.Markup {
-
-	[Flags]
+	[Flags] // Arthur200000: Simply listing classes now. 
+	public enum AcceptedMarkupExtensionExpressionType {
+		SerializeAsAttribute = 1
+	}
+    public enum Ambient {
+        SerializeAsAttribute = 1
+    }
+    // TODO ArrayExtension, ComponentResourceKeyConverter
+	public enum ConstructorArgument {
+        SerializeAsAttribute = 1
+    }
+	public enum ContentProperty {
+        SerializeAsAttribute = 1
+    }
 	public enum DesignerSerializationOptions {
 		SerializeAsAttribute = 1
 	}
+	public enum DictionaryKeyProperty {
+		SerializeAsAttribute = 1
+	}
+
 }
 
