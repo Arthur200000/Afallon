@@ -11,8 +11,6 @@
     <AssemblyName>WindowsBase</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <ProductVersion>12.0.0</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -47,6 +45,7 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="System.Xaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="System.IO\FileFormatException.cs" />
@@ -103,7 +102,7 @@
     <Compile Include="System.Windows\SizeConverter.cs" />
     <Compile Include="System.Windows\Vector.cs" />
     <Compile Include="System.Windows\VectorConverter.cs" />
-    <Compile Include="System.Windows.Markup\DateTimeValueSerializer.cs" />
+    <Compile Include="System.Windows.Markup\DateTimeValueSerializerContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Afallon.snk" />

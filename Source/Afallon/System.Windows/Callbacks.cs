@@ -39,6 +39,10 @@ namespace System.Windows
             return Equals(NewValue, other.NewValue) && Equals(OldValue, other.OldValue) && Equals(Property, other.Property);
         }
 
+		/// <summary>
+		/// Serves as a hash function for a <see cref="System.Windows.DependencyPropertyChangedEventArgs"/> object.
+		/// </summary>
+		/// <returns>A hash code for this instance that is suitable for use in hashing algorithms and data structures such as a hash table.</returns>
         public override int GetHashCode()
         {
             unchecked
